@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The value of the number variable is 1
+// We give it a conditonal statement to increase its value by 1 
+// If the resulting value is greater or equal to 2 
+// We console.log 'yes'
 
 //CODE
 /*
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We code the variable with the name value of 'Dane'
+// We write a conditional statement that declare the name must equal 'Mary' in order to generate the result of 'Hi, Mary!'
+// If the value of the name variable is one other than Mary the code will default to 'How do you do?'
 //
 
 //CODE
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 'let secret' creates a variable called secret but it does not give it a value 
+// 'let code' creates a variable called code and assigns it a value of '123'
+//  A conditional statement is then given to check if the value of 'code' equals '123' 
+// If the conditional statement is true, 'secret' is assigned the value of 'super'
 
 //CODE
 /*
@@ -123,6 +123,8 @@ if (number >= 2) {
 
 */
 
+___________________________
+
 
 
 //4. We start with three variables -- colorOne is set to 'blue' and 
@@ -133,7 +135,7 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// FIX -- colorOne should remain the same. A fourth color variable should be included if mix = true colorMix = 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -143,6 +145,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+
+// This code does not require a solutuion.
 /*
 let temp = 40;
 const time = 4;
@@ -156,6 +160,8 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+
+// FIX there is not value given for the conditional statement minimum age. if (minAge <= 21)
 /*
 let age = 21;
 const minAge = 21;
